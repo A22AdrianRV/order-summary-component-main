@@ -1,0 +1,106 @@
+body{
+    display: flex;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(./images/pattern-background-desktop.svg);
+    
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: contain;
+    
+    
+}
+
+.a{
+    width: 350px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+}
+
+
+p>mid{
+
+    justify-items: flex-end;
+    align-items: center;
+    width:250px
+}
+
+
+.text{
+    color:grey;
+    width:300px;
+    font-size: 16px;
+    justify-items: center;
+    align-items: center;
+}
+
+
+
+
+.main{
+
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:350px;
+    border-radius: 10px;
+    
+
+}
+
+
+
+
+h1{
+    font-size: 16px;
+}
+
+h2{
+    font-size: 16px;
+}
+
+.mid{
+
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#icono{
+
+    height: 50px;
+
+}
+
+#payment{
+    color: white;
+}
+
+#pay{
+    background-color: blueviolet;
+    width:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#plan{
+    width: 200px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.attribution { 
+    display: none;
+    font-size: 11px; text-align: center; 
+    color: hsl(228, 45%, 44%);
+}
